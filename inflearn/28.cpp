@@ -19,8 +19,5 @@ int main(){
 		}
 	}
 	
-	printf("%d! = ", n);
-	for(int i = 2; i <= n; i++){
-		if(answer[i] != 0)	printf("%d ", answer[i]);
-	}
+	printf("%d", min(answer[2], answer[5]));
 }
