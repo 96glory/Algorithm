@@ -10,9 +10,9 @@ int count(int size){
 	for(i = 1; i <= n; i++){
 		if(sum + arr[i] > size){
 			cnt++;
-			sum = a[i];
+			sum = arr[i];
 		}
-		else	sum += a[i];
+		else	sum += arr[i];
 	}
 	
 	return cnt;
