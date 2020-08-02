@@ -1,7 +1,9 @@
 ## acmicpc
 > 백준에서 푼 문제들
+> [96glory의 프로필](https://www.acmicpc.net/user/clicksyk)
 
-* [96glory의 프로필](https://www.acmicpc.net/user/clicksyk)
+#### 문제 해설
+* [01107 - 리모컨](https://96glory.tistory.com/34)
 
 ## programmers
 > 프로그래머스에서 푼 문제들
