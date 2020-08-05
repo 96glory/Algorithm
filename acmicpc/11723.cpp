@@ -1,79 +1,42 @@
-#include <iostream>
-#include <algorithm>
-#include <string>
-#include <vector>
-
+#include <bits/stdc++.h>
 using namespace std;
-
-vector<int> arr(20);
-vector<int> emp(20, 0);
-vector<int> alll(20);
-int index = 0;
-
-void add(int ele){
-	if(find(arr.begin(), arr.end(), ele) == arr.end()){
-		arr[index] = ele;
-		index++;
-	}
-}
-void remove(int ele){
-	for(int i = 0; i <= index; i++){
-		if(arr[i] == ele){
-			for(int j = i; j <= index; j++)
-				arr[j] = arr[j + 1];
-			index--;
-			break;
-		}
-	}
-}
-void check(int ele){
-	if(find(arr.begin(), arr.end(), ele) == arr.end())
-		printf("0\n");
-	else
-		printf("1\n");
-}
-void toggle(int ele){
-	if(find(arr.begin(), arr.end(), ele) == arr.end()){
-		arr[index] = ele;
-		index++;
-	}
-	else{
-		for(int i = 0; i <= index; i++){
-			if(arr[i] == ele){
-				for(int j = i; j <= index; j++)
-					arr[j] = arr[j + 1];
-				index--;
-				break;
-			}
-		}
-	}
-}
-void all(int ele){
-	arr = alll;
-	index = 19;
-}
-void empty(int ele){
-	arr = emp;
-	index = 0;
-}
+ 
+int N, num, BIT;
+string input;
+ 
 int main(){
-	for(int i = 0; i < 20; i++)
-		alll[i] = i + 1;
-	int N;
-	cin >> N;
-	for(int i = 0; i < N; i++){
-		string inst;
-		int ele;
-		
-		cin >> inst;
-		if(inst != "all" && inst != "empty")	cin >> ele;
-		
-		if(inst == "add")			add(ele);
-		else if(inst == "remove")	remove(ele);
-		else if(inst == "check")	check(ele);
-		else if(inst == "toggle")	toggle(ele);
-		else if(inst == "all")		all(ele);
-		else if(inst == "empty")	empty(ele);
-	}
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    
+    cin >> N;
+    while(N--){
+    	input.clear();
+        cin >> input;
+        
+        if (input == "add"){
+            cin >> num;
+            BIT |= (1 << num);
+        }
+        else if (input == "remove"){
+            cin >> num;
+            BIT &= ~ (1 << num);
+        }
+        else if (input == "check"){
+            cin >> num;
+            if (BIT & (1 << num))	cout << 1 << '\n';
+            else					cout << 0 << '\n';
+        }
+        else if (input == "toggle"){
+            cin >> num;
+            BIT ^= (1 << num);
+        }
+        else if (input == "all"){
+            BIT = (1 << 21) - 1;
+        }
+        else if (input == "empty"){
+            BIT = 0;
+        }
+    }
 }
 
