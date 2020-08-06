@@ -1,36 +1,51 @@
-#include <iostream>
-#include <algorithm>
-#include <vector>
-
+#include <bits/stdc++.h>
 using namespace std;
 
-int N, M;
-char arr[15];
-char result[15];
+vector<char> v;
+vector<int> visit;
+int l, c;
+char temp;
 
-void dfs(int depth, int index){
-	if(depth > N)	return;
-	else if(depth == N){
-		for(int i = 0; i < N; i++)
-			cout << result[i];
-		cout << '\n';
-		return;
+void dfs(int len, int idx){
+	if(len == l){
+		int con = 0, vow = 0;
+		for(int i = 0; i < v.size(); i++){
+			if(visit[i] == 1){
+				if(v[i] == 'a' || v[i] == 'e' || v[i] == 'i' || v[i] == 'o' || v[i] == 'u')
+					vow++;
+				else
+					con++;
+			}
+		}
+		if(con >= 2 && vow >= 1){
+			for(int i = 0; i < v.size(); i++){
+				if(visit[i] == 1)
+					cout << v[i];
+			}
+			cout << endl;
+		}
 	}
-	
-	for(int i = index + 1; i < M; i++){
-		result[depth] = arr[i];
-		dfs(depth + 1, i);
+	else{
+		for(int i = idx; i < v.size(); i++){
+			visit[i] = 1;
+			dfs(len + 1, i + 1);
+			visit[i] = 0;
+		}
 	}
 }
 
 int main(){
-	cin >> N >> M;
-	for(int i = 0; i < M; i++)
-		cin >> arr[i];
-		
-	sort(arr, arr + M);
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL); cout.tie(NULL);
 	
-	dfs(0, -1);
+	cin >> l >> c;
+	for(int i = 1; i <= c; i++){
+		cin >> temp;
+		v.push_back(temp);
+	}
+	sort(v.begin(), v.end());
+	visit.assign(v.size(), 0);
 	
+	dfs(0, 0);
 }
 

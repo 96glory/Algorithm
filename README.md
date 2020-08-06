@@ -7,6 +7,7 @@
 * [01107 - 리모컨](https://96glory.tistory.com/34)
 * [01339 - 단어 수학](https://96glory.tistory.com/37)
 * [01748 - 수 이어 쓰기 1](https://96glory.tistory.com/36)
+* [01759 - 암호 만들기](https://96glory.tistory.com/40)
 * [06064 - 카잉 달력](https://96glory.tistory.com/35)
 * [14501 - 퇴사](https://96glory.tistory.com/38)
 
