@@ -10,7 +10,7 @@
 * [01759 - 암호 만들기](https://96glory.tistory.com/40)
 * [06064 - 카잉 달력](https://96glory.tistory.com/35)
 * [14501 - 퇴사](https://96glory.tistory.com/38)
-
+* [14502 - 연구소](https://96glory.tistory.com/41)
 ## programmers
 > 프로그래머스에서 푼 문제들
 
