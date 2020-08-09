@@ -8,6 +8,7 @@
 * [01339 - 단어 수학](https://96glory.tistory.com/37)
 * [01748 - 수 이어 쓰기 1](https://96glory.tistory.com/36)
 * [01759 - 암호 만들기](https://96glory.tistory.com/40)
+* [02580 - 스도쿠](https://96glory.tistory.com/44)
 * [06064 - 카잉 달력](https://96glory.tistory.com/35)
 * [14501 - 퇴사](https://96glory.tistory.com/38)
 * [14502 - 연구소](https://96glory.tistory.com/41)
