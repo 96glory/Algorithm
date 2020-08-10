@@ -2,4 +2,9 @@
 알고할래/
 .vscode/
 test/
-#.cpp
+acmicpc/*
+!acmicpc/*.cpp
+programmers/*
+!programmers/*.cpp
+inflearn/*
+!inflearn/*.cpp
