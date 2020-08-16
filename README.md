@@ -9,6 +9,7 @@
 - [01107 - 리모컨](https://96glory.tistory.com/34)
 - [01149 - RGB거리](https://96glory.tistory.com/48)
 - [01339 - 단어 수학](https://96glory.tistory.com/37)
+- [01699 - 제곱수의 합](https://96glory.tistory.com/50)
 - [01748 - 수 이어 쓰기 1](https://96glory.tistory.com/36)
 - [01759 - 암호 만들기](https://96glory.tistory.com/40)
 - [01890 - 점프](https://96glory.tistory.com/46)
