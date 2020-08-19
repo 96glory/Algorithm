@@ -13,6 +13,8 @@
 - [01748 - 수 이어 쓰기 1](https://96glory.tistory.com/36)
 - [01759 - 암호 만들기](https://96glory.tistory.com/40)
 - [01890 - 점프](https://96glory.tistory.com/46)
+- [01904 - 01타일](https://96glory.tistory.com/51)
+- [02294 - 동전 2](https://96glory.tistory.com/52)
 - [02580 - 스도쿠](https://96glory.tistory.com/44)
 - [06064 - 카잉 달력](https://96glory.tistory.com/35)
 - [11084 - 이동하기](https://96glory.tistory.com/45)
