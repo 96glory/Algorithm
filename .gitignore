@@ -8,3 +8,5 @@ programmers/*
 !programmers/*.cpp
 inflearn/*
 !inflearn/*.cpp
+algospot/*
+!algospot/*.cpp
