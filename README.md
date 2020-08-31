@@ -16,6 +16,7 @@
 -   [01890 - 점프](https://96glory.tistory.com/46)
 -   [01904 - 01타일](https://96glory.tistory.com/51)
 -   [02294 - 동전 2](https://96glory.tistory.com/52)
+-   [02573 - 빙산](https://96glory.tistory.com/59)
 -   [02580 - 스도쿠](https://96glory.tistory.com/44)
 -   [02644 - 촌수계산](https://96glory.tistory.com/56)
 -   [05557 - 1학년](https://96glory.tistory.com/55)
