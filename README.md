@@ -23,6 +23,7 @@
 -   [05557 - 1학년](https://96glory.tistory.com/55)
 -   [06064 - 카잉 달력](https://96glory.tistory.com/35)
 -   [07569 - 토마토](https://96glory.tistory.com/57)
+-   [11060 - 점프 점프](https://96glory.tistory.com/67)
 -   [11084 - 이동하기](https://96glory.tistory.com/45)
 -   [12100 - 2048 Easy](https://96glory.tistory.com/60)
 -   [12865 - 평범한 배낭](https://96glory.tistory.com/49)

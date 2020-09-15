@@ -2,6 +2,7 @@
 알고할래/
 .vscode/
 test/
+inflearn-algorithm/
 acmicpc/*
 !acmicpc/*.cpp
 programmers/*

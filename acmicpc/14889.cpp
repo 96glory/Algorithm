@@ -31,7 +31,7 @@ int main() {
     }
     sort(v.begin(), v.end());
 
-    do{
+    do{ 
         vector<int> start;
         vector<int> link;
         for(int i = 0; i < v.size(); i++){
