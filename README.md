@@ -58,6 +58,7 @@
 -   [42842 - 카펫](https://96glory.tistory.com/28)
 -   [42888 - 오픈채팅방](https://96glory.tistory.com/62)
 -   [42889 - 실패율](https://96glory.tistory.com/63)
+-   [42890 - 후보키](https://96glory.tistory.com/68)
 -   [42893 - 소수 찾기](https://96glory.tistory.com/26)
 -   [42895 - N으로 표현](https://96glory.tistory.com/21)
 -   [42898 - 등굣길](https://96glory.tistory.com/24)
