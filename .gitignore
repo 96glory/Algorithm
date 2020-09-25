@@ -3,7 +3,9 @@
 .vscode/
 test/
 inflearn-algorithm/
-acmicpc/*
+acmicpc/*.exe
+acmicpc/python/*
+!acmicpc/python/*.py
 !acmicpc/*.cpp
 programmers/*
 !programmers/*.cpp
